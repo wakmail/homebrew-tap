@@ -7,7 +7,6 @@ cask "marklet" do
   desc "Native Markdown editor with live formatting"
   homepage "https://getmarklet.com/"
 
-  auto_updates true
   depends_on macos: :sonoma
 
   app "Marklet.app"
